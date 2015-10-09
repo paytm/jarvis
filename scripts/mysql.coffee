@@ -14,7 +14,7 @@ module.exports = (robot) ->
     query = res.match[1]
     query = mysql.format(query)
     connection.query query , (err, result) ->
-      throw err if (err)
+      res.send err.message if (err)
       headers = []
 
       return res.send "Today is just not your day" if result.length is 0
