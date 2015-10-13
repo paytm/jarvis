@@ -5,5 +5,7 @@ insult slack bot permanently. / insult a user permanently
 
 ask jarvis if the network connection works
 
+jarvis should have profiles, something like humor level
+
 send out random movie quotes to general channel
 
