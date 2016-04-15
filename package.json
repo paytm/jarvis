@@ -19,7 +19,9 @@
     "hubot-shipit": "^0.2.0",
     "hubot-slack": "^3.3.0",
     "mysql": ">= 2.0.1",
-    "cli-table": "~0.3.1"
+    "cli-table": "~0.3.1",
+    "xmldom": "~0.1.22",
+    "xpath": "0.0.22"
   },
   "engines": {
     "node": "0.10.x"
