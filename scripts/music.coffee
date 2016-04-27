@@ -14,10 +14,11 @@ module.exports = (robot) ->
                 doc = new dom().parseFromString(parseBody)
                 nodes = xpath.select('//title', doc)
                 songName = nodes[0].firstChild.data
-                res.reply songName
+                #res.reply songName
                 fileString = "• #{songName} by #{userName}\n"
+                replyMsg = "I have added your suggestion #{songName} to the list. Thanks!"
                 fs.appendFileSync('songs.md', fileString)
-                res.send('Song successfully written to file')
+                res.send(replyMsg)
 
 
-        res.reply "Thanks for the suggestion"
+        #res.reply "Thanks for the suggestion"
