@@ -15,7 +15,7 @@ module.exports = (robot) ->
                 nodes = xpath.select('//title', doc)
                 songName = nodes[0].firstChild.data
                 res.reply songName
-                fileString = "* #{songName} by #{userName}\n"
+                fileString = "• #{songName} by #{userName}\n"
                 fs.appendFileSync('songs.md', fileString)
                 res.send('Song successfully written to file')
 
