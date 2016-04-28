@@ -7,7 +7,7 @@ module.exports = (robot) ->
         groupName = res.envelope.room
         userName = res.envelope.user.name
         userid = res.envelope.user.id
-        if groupName in ['random']
+        if groupName in ['music']
             musicLink = res.match[1]
             robot.http(musicLink)
                 .get() (err, parseRes, parseBody) ->
