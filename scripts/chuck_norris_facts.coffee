@@ -3,7 +3,7 @@ config = './scripts/chuck_norris_facts.txt'
 
 #random chuck norris fact
 module.exports = (robot) ->
-    opening = "Intersting Chuck Norris Fact : "
+    opening = "Interesting Chuck Norris Fact : "
     robot.hear /chuck/i, (res) ->
         data = fs.readFileSync config, 'utf8'
         data = data.split('%')
