@@ -38,7 +38,7 @@ module.exports = (robot) ->
                 idx = Math.floor(Math.random()*noOfEntries)
                 try
                     item = feed.getItems()[idx]
-                    linkToShare = "<!group>! " + item.getTitle() + ": " + item.getPermalink() + " (" + item.getComments()?.html + ")"
+                    linkToShare = item.getTitle() + ": " + item.getPermalink() + " (" + item.getComments()?.html + ")"
                     cb(linkToShare)
                 catch e
                     console.log(e)
