@@ -1,3 +1,17 @@
+# Description:
+#   Bakar
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot introduce yourself -  introduces itself
+#
+# Author:
+#   samarthmed
 module.exports = (robot) ->
 
      robot.respond /introduce yourself/i , (res) ->
