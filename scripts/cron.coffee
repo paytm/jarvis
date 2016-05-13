@@ -1,3 +1,19 @@
+# Description:
+#   Cron Scheduler
+#   Emits a event at a random time from a fixed scheduled time
+#
+# Dependencies:
+#   "cron": "1.1.0"
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   none
+#
+# Author:
+#   staranjeet
+#
 module.exports = (robot) ->
     cronJob = require('cron').CronJob
     tz = 'Asia/Kolkata'
