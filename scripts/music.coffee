@@ -1,3 +1,19 @@
+# Description:
+#   Hubot saves music link being posted to music channel
+#
+# Dependencies:
+#   xmldom
+#   xpath
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot /music <link> Saves the link and creates a playlist in file
+#
+# Author:
+#   staranjeet
+#
 dom = require 'xmldom'
 xpath = require 'xpath'
 fs = require 'fs'
