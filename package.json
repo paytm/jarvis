@@ -21,7 +21,7 @@
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.2",
     "hubot-shipit": "^0.2.0",
-    "hubot-slack": "^3.3.0",
+    "hubot-slack": "^4.0.2",
     "mysql": ">= 2.0.1",
     "nodepie": "^0.7.0",
     "soupselect": "^0.2.0",
